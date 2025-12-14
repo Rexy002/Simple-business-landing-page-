@@ -1,0 +1,70 @@
+
+
+body{
+   background-color:#fff44f;
+   text-align:center;
+}
+
+
+
+
+
+h1{
+    color:cyan;
+    text-align:center;
+    font-size:50px;
+}
+h3{
+    color:red;
+    text-align:center;
+    font-size:20px;
+    font-weight:10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.box {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(33% - 40px);
+}
+
+
+
+
+
+
+
+
+.ContactUs-btn {
+    background: #e0e0e0;        
+    padding: 10px 20px;
+    border-radius: 8px;         
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top:20px;
+    
+}
+
+.ContactUs-btn:hover {
+    box-shadow: 0 0 15px #e0e0e0, 
+                0 0 30px #e0e0e0;  
+    transform: translateY(-2px);
+}
+
+@media (max-width: 700px) {
+  .box {
+    flex: 1 1 100%;
+  }
+}
